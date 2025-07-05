@@ -75,6 +75,11 @@
     padding: 30px 0;
     color: #bdbdbd;
   }
+  .video-container {
+    display: inline-block; /* Evita que el div se expanda al 100% */
+    padding: 0;
+    margin: 0;
+  }
 </style>
 </head>
 <body>
@@ -83,6 +88,15 @@
     <h1>LCM - Line Color Mania</h1>
     <p class="subtitle">A colorful puzzle adventure to relax and challenge your mind!</p>
   </header>
+  </div>
+  <div class="video-container">
+   <video width="700" height="450" controls="controls" preload="true">
+     <source src="showlcm.mp4" type="video/mp4"/>
+     Your browser does not support the video tag.
+   </video>
+</div>    
+    
+    
   <div class="screenshots">
     <img src="image1.jpeg" alt="Gameplay 1">
     <img src="image2.jpeg" alt="Gameplay 2">
